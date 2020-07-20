@@ -1,13 +1,123 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  margin: auto;
+  background: #4c2a4c;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.App {
+  background: #4c2a4c;
+  width: 100%;
+  max-width: 100%;
+  margin: 0;
+}
+
+.navbar {
+  padding: 10px 20px;
+  text-align: center;
+  background: #6d3d6d;
+  color: white;
+  width: 70%;
+  margin: 20px auto;
+  border-radius: 20px;
+}
+
+.navbar h1 {
+  margin: 10px 0;
+  color: white;
+}
+
+.navbar p {
+  background: #6d3d6d;
+  color: white;
+}
+
+.book-list ul {
+  width: 75%;
+  margin: 0 auto;
+  background: green;
+}
+
+.book-list ul li {
+  margin: 20px 30px;
+  padding: 30px;
+}
+
+.book-list ul {
+  padding: 0;
+  list-style-type: none;
+}
+
+.book-list li {
+  background: #6d3d6d;
+  border-radius: 4px;
+  padding: 10px;
+  cursor: pointer;
+  margin: 10pxx 0;
+}
+
+.book-list li:hover {
+  opacity: 0.7;
+  text-decoration: line-through;
+}
+
+.book-list .title {
+  font-weight: bold;
+  color: #fff;
+  font-size: 1.2em;
+}
+
+.book-list .author {
+  font-size: 0.9em;
+  color: #ddd;
+}
+
+.empty {
+  margin: 20px;
+  text-align: center;
+}
+
+.navbar {
+  padding: 10px 20px;
+  text-align: center;
+}
+
+.navbar h1 {
+  margin: 10px 0;
+}
+
+.book-list {
+  margin: 20px;
+}
+
+.book-list ul {
+  padding: 0;
+  list-style-type: none;
+}
+
+.book-list li {
+  background: #6d3d6d;
+  border-radius: 4px;
+  padding: 10px;
+  cursor: pointer;
+  margin: 10pxx 0;
+}
+
+.book-list li:hover {
+  opacity: 0.7;
+  text-decoration: line-through;
+}
+
+.book-list .title {
+  font-weight: bold;
+  color: #fff;
+  font-size: 1.2em;
+}
+
+.book-list .author {
+  font-size: 0.9em;
+  color: #ddd;
+}
+
+.empty {
+  margin: 20px;
+  text-align: center;
 }

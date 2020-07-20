@@ -1,14 +1,13 @@
-body {
+/* body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "segeo UI", "Roboto", "Oxygen";
 }
-
 .App {
   background: #4c2a4c;
   margin: 20px auto;
   width: 90%;
   max-width: 90%;
-  color: #eee;
+  height: 100%;
 }
 
 .navbar {
@@ -19,4 +18,4 @@ body {
 
 .navbar h1 {
   margin: 10px 0;
-}
+} */
