@@ -5,9 +5,9 @@ body {
 
 .App {
   background: #4c2a4c;
-  width: 100%;
+  width: 50%;
   max-width: 100%;
-  margin: 0;
+  margin: 0 auto;
 }
 
 .navbar {
@@ -15,7 +15,6 @@ body {
   text-align: center;
   background: #6d3d6d;
   color: white;
-  width: 70%;
   margin: 20px auto;
   border-radius: 20px;
 }
@@ -31,9 +30,8 @@ body {
 }
 
 .book-list ul {
-  width: 75%;
   margin: 0 auto;
-  background: green;
+  background: #4c2a4c;
 }
 
 .book-list ul li {
@@ -73,6 +71,28 @@ body {
 .empty {
   margin: 20px;
   text-align: center;
+}
+
+form {
+  padding: 20px;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  margin: 6px 0;
+  background: #3c1f3c;
+  color: #fff;
+  border: 0;
+}
+
+input[type="submit"] {
+  margin: 10pa auto;
+  background: #eee;
+  border: 0;
+  padding: 6px 20px;
+  display: block;
 }
 
 .navbar {
